@@ -1,0 +1,28 @@
+{
+  "name": "postapp",
+  "version": "1.0.0",
+  "description": "Backend - Compasso\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[CPostApp \u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev":"nodemon index.js"
+  },
+  "author": "Universo 7",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "consign": "^0.1.6",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.1",
+    "express-hateoas-links": "^1.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.9",
+    "sucrase": "^3.12.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "nodemon": "^2.0.2",
+    "sucrase": "^3.12.1"
+  }
+}
