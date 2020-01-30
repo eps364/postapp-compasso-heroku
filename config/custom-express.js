@@ -15,6 +15,11 @@ app.use(express.urlencoded({ extended: true }))
 
 app.use(express_hateoas_links)
 
+
+app.get('/', (req, res) => {
+    return 	res.send('Acesse a documentação API')
+});
+
 //Conecting with database
 mongoose_connect()
 
