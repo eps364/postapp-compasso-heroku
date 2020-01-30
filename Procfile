@@ -1,1 +1,3 @@
-web: node start
+"scripts": {
+  "start": "node index.js"
+}
