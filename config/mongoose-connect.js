@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 module.exports = () => {
-  mongoose.connect(process.env.DATA_BASE_URL, {
+  mongoose.connect('process.env.DATA_BASE_URL', {
     useNewUrlParser: true,
     useUnifiedTopology: true
   })
