@@ -11,7 +11,7 @@
   "author": "Universo 7",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^3.0.7",
+    "bcrypt": "^5.0.0",
     "consign": "^0.1.6",
     "dotenv-safe": "^8.2.0",
     "express": "^4.17.1",
